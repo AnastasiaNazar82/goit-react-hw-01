@@ -1,0 +1,77 @@
+.container {
+  background-color: #fafaff;
+  width: 300px;
+  margin: 40px auto;
+  border: 3px solid #070707;
+  border-radius: 12px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 18px;
+}
+.image {
+  width: 120px;
+  background-color: rgb(48, 47, 47);
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+.tag,
+.location {
+  font-weight: 500;
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: #5f5e5ea9;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 12px;
+}
+.item {
+  flex-basis: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(192, 188, 188);
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  width: 100%;
+  padding: 6px;
+}
+
+.item_title {
+  font-weight: 400;
+}
+
+.item_amount {
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.list .item:nth-child(n + 3) {
+  border-right: none;
+}
+.list .item:first-child {
+  border-bottom-left-radius: 12px;
+}
+
+.list .item:last-child {
+  border-bottom-right-radius: 12px;
+}

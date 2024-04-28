@@ -1,0 +1,37 @@
+.cont {
+  background-color: transparent;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.image {
+  width: 72px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.friendListItem_offline {
+  font-size: 12px;
+  text-align: center;
+  color: rgb(192, 27, 27);
+  margin-top: 0;
+}
+
+.friendListItem_online {
+  font-size: 12px;
+  text-align: center;
+  color: rgb(9, 102, 15);
+  margin-top: 0;
+}
